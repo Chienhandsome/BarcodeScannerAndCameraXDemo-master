@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:\\layout\\activity_barcode_scanner.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\layout\\activity_barcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:\\layout\\info_sv_row.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\layout\\info_sv_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:\\layout\\dialog_xac_nhan_them_sv.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\layout\\dialog_xac_nhan_them_sv.xml"
+    },
+    {
+        "merged": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:/layout/activity_barcode_scanner.xml",
+        "source": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:/layout/activity_barcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:\\layout\\ds_sinh_vien.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\layout\\ds_sinh_vien.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:\\layout\\menu.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\layout\\menu.xml"
+    }
+]

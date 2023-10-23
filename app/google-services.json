@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052000206435",
+    "project_id": "mssvscanner",
+    "storage_bucket": "mssvscanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052000206435:android:72ebe90855670ad9938256",
+        "android_client_info": {
+          "package_name": "com.zeeshanelahi.barcodescannerandcameraxdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5j81XG5-UpWAxioSNI2r5hisjDCh96Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1052000206435</string>
+    <string name="google_api_key" translatable="false">AIzaSyD5j81XG5-UpWAxioSNI2r5hisjDCh96Gg</string>
+    <string name="google_app_id" translatable="false">1:1052000206435:android:72ebe90855670ad9938256</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD5j81XG5-UpWAxioSNI2r5hisjDCh96Gg</string>
+    <string name="google_storage_bucket" translatable="false">mssvscanner.appspot.com</string>
+    <string name="project_id" translatable="false">mssvscanner</string>
+</resources>

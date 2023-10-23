@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MLKit and CameraX Demo</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_barcode_scanning">Scan Barcode</string>
+
+    <!-- Misc Labels & Texts -->
+    <string name="scanned_code_result_label">Scan Result:</string>
+    <string name="back_button_accessible_text" />
+    <string name="th_m_th_ng_tin_sinh_vi_n">Thêm thông tin sinh viên\n</string>
+    <string name="_22665261">22665261</string>
+    <string name="dnktpm18">DNKTPM18</string>
+
+</resources>
