@@ -46,10 +46,11 @@ public class BarcodeScannerActivity extends AppCompatActivity
 
     private static final String TAG = "BarcodeScannerActivity";
     private static final int PERMISSION_REQUESTS = 1;
-
+    DanhSachSV danhSachSV = new DanhSachSV();
     private ActivityBarcodeScannerBinding binding;
 
     public boolean dialogIsShowing = false;
+
 
     @Nullable
     private ProcessCameraProvider cameraProvider;
@@ -379,7 +380,7 @@ public class BarcodeScannerActivity extends AppCompatActivity
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 String mssv = snapshot.getValue().toString();
                 SinhVien sv = new SinhVien(mssv,"xyz");
-                DanhSachSV.themSinhVien(sv);
+                danhSachSV.themSinhVien(sv);
                 Toast.makeText(BarcodeScannerActivity.this, "ok", Toast.LENGTH_SHORT).show();
             }
 

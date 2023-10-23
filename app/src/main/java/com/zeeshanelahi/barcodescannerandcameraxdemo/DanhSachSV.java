@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -44,9 +45,6 @@ public class DanhSachSV extends AppCompatActivity {
                 startActivities(new Intent[]{intent});
             }
         });
-
-
-
 
         taoAdapter(sinhviens);
     }
