@@ -51,7 +51,6 @@ public class BarcodeScannerActivity extends AppCompatActivity
 
     public boolean dialogIsShowing = false;
 
-
     @Nullable
     private ProcessCameraProvider cameraProvider;
     @Nullable
@@ -100,16 +99,15 @@ public class BarcodeScannerActivity extends AppCompatActivity
         }
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(BarcodeScannerActivity.this, Menu.class);
-                    startActivities(new Intent[]{intent});
-                }
-            });
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BarcodeScannerActivity.this, Menu.class);
+                startActivities(new Intent[]{intent});
+            }
+        });
 
 
-        }
-
+    }
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle bundle) {
@@ -281,19 +279,21 @@ public class BarcodeScannerActivity extends AppCompatActivity
         handler.post(new Runnable() {
             @Override
             public void run() {
-                if (code != null && !code.isEmpty() && !dialogIsShowing) {
+                if (code != null && !code.isEmpty() && isMSSV(code) &&!dialogIsShowing) {
                     dialogIsShowing = true;
                     binding.barcodeRawValue.setText(code);
                     binding.resultContainer.setVisibility(View.VISIBLE);
-                    if(isMSSV(code)  ) {
-                        dialogConfirm(code);
-                    }
-
+                    dialogConfirm(code);
+                }
+                else if (code == null || code.isEmpty() || !isMSSV(code)){
+                    Toast.makeText(danhSachSV, "không thể xác định!", Toast.LENGTH_SHORT).show();
+                }
+                else if (svDaTonTai(code)){
+                    Toast.makeText(danhSachSV, "sinh viên đã tồn tại!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
     }
-
 
     public void dialogConfirm(String mssv){
 
@@ -312,8 +312,6 @@ public class BarcodeScannerActivity extends AppCompatActivity
         btHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
                 dialogIsShowing = false;
                 dialog.dismiss();
             }
@@ -328,21 +326,17 @@ public class BarcodeScannerActivity extends AppCompatActivity
                     @Override
                     public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
                         if (error == null){
-                            //Toast.makeText(BarcodeScannerActivity.this, "Cập nhật thành công!", Toast.LENGTH_SHORT).show();
-                            getNewData();
+                            Toast.makeText(BarcodeScannerActivity.this, "Cập nhật thành công!", Toast.LENGTH_SHORT).show();
                         }
                         else {
-                            //Toast.makeText(BarcodeScannerActivity.this, "Cập nhật thất bại!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(BarcodeScannerActivity.this, "Cập nhật thất bại!", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
                 dialogIsShowing = false;
-
                 dialog.dismiss();
             }
         });
-
-
     }
     public boolean isMSSV(String mssv){
 
@@ -373,36 +367,13 @@ public class BarcodeScannerActivity extends AppCompatActivity
         return true;
     }
 
-    public  void getNewData(){
-        DatabaseReference reference = database.getReference("Danh Sách Sinh Viên");
-        reference.child("Danh Sách Sinh Viên").addChildEventListener(new ChildEventListener() {
-            @Override
-            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                String mssv = snapshot.getValue().toString();
-                SinhVien sv = new SinhVien(mssv,"xyz");
-                danhSachSV.themSinhVien(sv);
-                Toast.makeText(BarcodeScannerActivity.this, "ok", Toast.LENGTH_SHORT).show();
+    public boolean svDaTonTai(String mssv){
+        for (SinhVien s : danhSachSV.sinhviens) {
+            if (mssv.equals(s.mssv)) {
+                return true;
             }
-
-            @Override
-            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-            }
-
-            @Override
-            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
+        }
+        return false;
     }
+
 }

@@ -21,23 +21,21 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
 
-
-
-        quet = findViewById(R.id.button_Quet);
-        showDS = findViewById(R.id.button_DS_Sinh_Vien);
+        anhXa();
 
         quet.setOnClickListener(v -> {
             Intent intent = new Intent(Menu.this, BarcodeScannerActivity.class);
             startActivities(new Intent[]{intent});
         });
 
-        showDS.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Menu.this, DanhSachSV.class);
-                startActivities(new Intent[]{intent});
-            }
+        showDS.setOnClickListener(view -> {
+            Intent intent = new Intent(Menu.this, DanhSachSV.class);
+            startActivities(new Intent[]{intent});
         });
 
+    }
+    public void anhXa(){
+        quet = findViewById(R.id.button_Quet);
+        showDS = findViewById(R.id.button_DS_Sinh_Vien);
     }
 }

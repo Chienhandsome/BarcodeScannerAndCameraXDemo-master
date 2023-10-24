@@ -28,8 +28,8 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-merged_res-56:/layout_activity_barcode_scanner.xml.flat",
-        "source": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:/layout/activity_barcode_scanner.xml"
+        "merged": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-merged_res-56:/layout_dialog_xac_nhan_them_sv.xml.flat",
+        "source": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:/layout/dialog_xac_nhan_them_sv.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

@@ -12,8 +12,8 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:\\layout\\dialog_xac_nhan_them_sv.xml"
     },
     {
-        "merged": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:/layout/activity_barcode_scanner.xml",
-        "source": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:/layout/activity_barcode_scanner.xml"
+        "merged": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:/layout/dialog_xac_nhan_them_sv.xml",
+        "source": "com.zeeshanelahi.barcodescannerandcameraxdemo.app-main-58:/layout/dialog_xac_nhan_them_sv.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\com.zeeshanelahi.barcodescannerandcameraxdemo.app-mergeDebugResources-55:\\layout\\ds_sinh_vien.xml",
