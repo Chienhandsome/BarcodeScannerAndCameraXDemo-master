@@ -1,5 +1,6 @@
 package com.zeeshanelahi.barcodescannerandcameraxdemo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -36,12 +37,13 @@ public class DanhSachSV extends AppCompatActivity {
 
         listView.setAdapter(adapter);
 
-        SinhVien sv = new SinhVien("123","123");
-        sinhviens.add(sv);
-        adapter.notifyDataSetChanged();
+//        SinhVien sv = new SinhVien("123","123");
+//        sinhviens.add(sv);
+//        adapter.notifyDataSetChanged();
+
 
         getNewData();
-        Toast.makeText(this, "so sinh vien " + sinhviens.size() , Toast.LENGTH_SHORT).show();
+
 
         backBT.setOnClickListener(view -> {
             Intent intent = new Intent(DanhSachSV.this, Menu.class);
@@ -55,11 +57,20 @@ public class DanhSachSV extends AppCompatActivity {
         reference.child("Danh Sách Sinh Viên").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
                 String mssv = snapshot.getValue().toString();
                 SinhVien sv = new SinhVien(mssv,"xyz");
+                Toast.makeText(DanhSachSV.this, mssv, Toast.LENGTH_SHORT).show();
+                DanhSachSV.this.runOnUiThread(new Runnable()
+                {
+                    public void run()
+                    {
+                        sinhviens.add(sv);
+                        adapter.notifyDataSetChanged();
+                    }
+                });
+                //Toast.makeText(DanhSachSV.this, "so sinh vien " + sinhviens.size() , Toast.LENGTH_SHORT).show();
 
-                sinhviens.add(sv);
-                adapter.notifyDataSetChanged();
             }
 
             @Override
@@ -72,9 +83,16 @@ public class DanhSachSV extends AppCompatActivity {
                 String mssv = snapshot.getValue().toString();
                 SinhVien sv = new SinhVien(mssv,"xyz");
 
-                sinhviens.remove(sv);
-                adapter.notifyDataSetChanged();
-                Toast.makeText(DanhSachSV.this, "Có sự thay đổi dữ liệu!", Toast.LENGTH_SHORT).show();
+
+                DanhSachSV.this.runOnUiThread(new Runnable()
+                {
+                    public void run()
+                    {
+                        sinhviens.remove(sv);
+                        adapter.notifyDataSetChanged();
+                    }
+                });
+                Toast.makeText(DanhSachSV.this, "Có dữ liệu bị xóa!", Toast.LENGTH_SHORT).show();
             }
 
             @Override

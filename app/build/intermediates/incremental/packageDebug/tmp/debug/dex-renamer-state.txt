@@ -1,4 +1,4 @@
-#Tue Oct 24 09:09:32 ICT 2023
+#Sat Oct 28 12:14:57 ICT 2023
 base.0=D\:\\ANDROID_PROJECT\\BarcodeScannerAndCameraXDemo-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\ANDROID_PROJECT\\BarcodeScannerAndCameraXDemo-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\ANDROID_PROJECT\\BarcodeScannerAndCameraXDemo-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

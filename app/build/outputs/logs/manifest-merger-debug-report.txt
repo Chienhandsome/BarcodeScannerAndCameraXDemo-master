@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\ASUS\.gradle\caches\transforms-3\ec72c5d35b35c017b9a746d29bde2837\transformed\jetified-viewbinding-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.4] C:\Users\ASUS\.gradle\caches\transforms-3\a206f1697db319b4ba06f126b3eb0fce\transformed\navigation-common-2.7.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.4] C:\Users\ASUS\.gradle\caches\transforms-3\ddfd18db7e9f3cb14535b77cad3a4a6b\transformed\navigation-runtime-2.7.4\AndroidManifest.xml:17:1-22:12
@@ -112,8 +112,8 @@ MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\ASUS
 	xmlns:android
 		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:4:1-33:15
-INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:4:1-33:15
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:4:5-33:19
+INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:4:5-33:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\transforms-3\5c71299dad08aff1198f1f5fe768a0f3\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\transforms-3\5c71299dad08aff1198f1f5fe768a0f3\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-3\ccdb797afd5accf438e49eec0b83b588\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -191,63 +191,71 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\602cde0d4a594a84d7f8265ed9121b06\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:9:5-31
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:7:5-30
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:7:9-34
 	android:roundIcon
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:8:5-50
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:8:9-54
 	android:icon
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:6:5-39
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:6:9-43
 	android:allowBackup
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:5:5-31
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:10:5-36
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:10:9-40
 meta-data#com.google.android.gms.version
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:12:5-14:64
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:12:9-14:68
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\2718dbbcc0e03f3d3843ded941ea3e79\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\2718dbbcc0e03f3d3843ded941ea3e79\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:14:9-62
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:14:13-66
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:13:13-58
 activity#com.zeeshanelahi.barcodescannerandcameraxdemo.Menu
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:16:5-24:16
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:screenOrientation
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:19:9-45
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:19:13-49
 	android:exported
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:17:13-33
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:20:9-23:25
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:21:13-65
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:21:21-62
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:22:13-73
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:22:23-70
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.zeeshanelahi.barcodescannerandcameraxdemo.BarcodeScannerActivity
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:26:5-28:16
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:26:9-28:20
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:27:9-47
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:27:13-51
 activity#com.zeeshanelahi.barcodescannerandcameraxdemo.DanhSachSV
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:30:5-32:16
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:30:9-32:20
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:31:13-39
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:35:1-66
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:35:5-70
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:35:15-63
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:35:19-67
 uses-feature#android.hardware.camera
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:36:1-56
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:36:5-60
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:36:15-53
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:36:19-57
+uses-feature#android.hardware.camera.flash
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:37:5-66
+	android:name
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:37:19-63
 uses-permission#android.permission.CAMERA
-ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:38:1-61
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:39:5-65
 	android:name
-		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:38:18-58
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:39:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:40:5-68
+	android:name
+		ADDED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml:40:22-66
 uses-sdk
 INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ANDROID_PROJECT\BarcodeScannerAndCameraXDemo-master\app\src\main\AndroidManifest.xml

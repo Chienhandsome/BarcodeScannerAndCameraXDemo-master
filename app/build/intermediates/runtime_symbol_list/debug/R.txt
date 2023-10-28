@@ -3125,6 +3125,7 @@ int drawable ic_mtrl_chip_checked_circle 0x7f0700aa
 int drawable ic_mtrl_chip_close_circle 0x7f0700ab
 int drawable ic_search_black_24 0x7f0700ac
 int drawable ic_white_back 0x7f0700f9
+int drawable light 0x7f0700fa
 int drawable m3_appbar_background 0x7f0700ad
 int drawable m3_avd_hide_password 0x7f0700ae
 int drawable m3_avd_show_password 0x7f0700af

@@ -280,17 +280,16 @@ public class BarcodeScannerActivity extends AppCompatActivity
             @Override
             public void run() {
                 if (code != null && !code.isEmpty() && isMSSV(code) &&!dialogIsShowing) {
-                    dialogIsShowing = true;
-                    binding.barcodeRawValue.setText(code);
-                    binding.resultContainer.setVisibility(View.VISIBLE);
-                    dialogConfirm(code);
+                    if (svDaTonTai(code)){
+                        Toast.makeText(danhSachSV, "sinh viên đã tồn tại!", Toast.LENGTH_SHORT).show();
+                    }else {
+                        dialogIsShowing = true;
+                        binding.barcodeRawValue.setText(code);
+                        binding.resultContainer.setVisibility(View.VISIBLE);
+                        dialogConfirm(code);
+                    }
                 }
-                else if (code == null || code.isEmpty() || !isMSSV(code)){
-                    Toast.makeText(danhSachSV, "không thể xác định!", Toast.LENGTH_SHORT).show();
-                }
-                else if (svDaTonTai(code)){
-                    Toast.makeText(danhSachSV, "sinh viên đã tồn tại!", Toast.LENGTH_SHORT).show();
-                }
+
             }
         });
     }
